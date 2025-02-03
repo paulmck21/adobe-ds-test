@@ -7396,19 +7396,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@spectrum-css/alertbanner@npm:3.0.0-s2-foundations.16":
-  version: 3.0.0-s2-foundations.16
-  resolution: "@spectrum-css/alertbanner@npm:3.0.0-s2-foundations.16"
+"@spectrum-css/alertbanner@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@spectrum-css/alertbanner@npm:3.0.0"
   peerDependencies:
     "@spectrum-css/button": ">=13"
     "@spectrum-css/closebutton": ">=5"
     "@spectrum-css/divider": ">=3"
     "@spectrum-css/icon": ">=7"
-    "@spectrum-css/tokens": ">=14"
+    "@spectrum-css/tokens": ">=14 || >=15"
   peerDependenciesMeta:
     "@spectrum-css/icon":
       optional: true
-  checksum: 10c0/d1e55541c6dd295575bb23dadc6043b12ab118f8790a375f208e46def9cf16ae50460e0203aebadc2e5688b3994f3badb14861ebb2128cfe9dd6ce466a3ef3c4
+  checksum: 10c0/c5db2861a62551939602f629e05ac24ddfb71f4a6ade73532e87c7095e6f53687406ecf85578de0bae4045aa195c5f5f635b62068018bfe1523eca9abf19e7fd
   languageName: node
   linkType: hard
 
@@ -8291,7 +8291,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@spectrum-web-components/alert-banner@workspace:packages/alert-banner"
   dependencies:
-    "@spectrum-css/alertbanner": "npm:3.0.0-s2-foundations.16"
+    "@spectrum-css/alertbanner": "npm:3.0.0"
     "@spectrum-web-components/base": "npm:^1.1.1"
     "@spectrum-web-components/button": "npm:^1.1.1"
     "@spectrum-web-components/icons-workflow": "npm:^1.1.1"
