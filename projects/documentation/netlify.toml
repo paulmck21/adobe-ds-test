@@ -3,6 +3,6 @@
   publish = "./dist/storybook"
 
 [[headers]]
-  for = "/storybook/*.json"
+  for = "/*.json"
     [headers.values]
     Access-Control-Allow-Origin = "*"
